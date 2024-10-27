@@ -1,0 +1,24 @@
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    background-color: #FEF2E6;
+
+    width: 40%;
+    height: 100vh;
+    margin: 0 auto;
+}
+
+.container-title {
+    font-size: 56px;
+    color: var(--brown-gray);
+
+    margin-top: 30px;
+}
+
+.container-nav {
+    width: 550px;
+    
+    margin-top: 30px;
+}
