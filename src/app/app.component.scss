@@ -1,24 +1,30 @@
-.container {
+.meal-planner-container {
     display: flex;
     align-items: center;
     flex-direction: column;
 
     background-color: #FEF2E6;
 
-    width: 40vw;
+    width: 100%;
+    max-width: 40vw;
     height: 100vh;
     margin: 0 auto;
 }
 
-.container-title {
+.meal-planner__title {
     font-size: 5.6rem;
-    color: var(--brown-gray);
+    color: var(--text-primary);
 
     margin-top: 3rem;
 }
 
-.container-nav {
+.meal-planner__nav {
     width: 75%;
     
     margin-top: 3rem;
+}
+
+.meal-planner__card-wrapper .meal-planner__card-row{
+    display: flex;
+    justify-content: space-between;
 }

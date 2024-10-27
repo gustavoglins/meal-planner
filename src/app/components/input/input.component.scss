@@ -1,6 +1,6 @@
 .input {
     font-size: 2.6rem;
-    color: var(--brown-gray);
+    color: var(--text-primary);
 
     width: 100%;
     height: 56px;
@@ -9,6 +9,10 @@
 
     border: none;
     border-radius: 1rem;
+
+    &::placeholder {
+        color: var(--text-primary);
+    }
     
     &--beige-light{
         background-color: var(--beige-light);

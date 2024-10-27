@@ -1,7 +1,26 @@
-<div class="container">
-    <h1 class="container-title">Meal Planner</h1>
+<div class="meal-planner-container">
 
-    <div class="container-nav">
-        <app-input class="container-nav__input" [style]="inputStyle" [type]="inputType" [placeholder]="inputPlaceholder"></app-input>
+    <h1 class="meal-planner__title">Meal Planner</h1>
+
+    <div class="meal-planner__nav">
+
+        <app-input [style]="inputStyle" [type]="inputType" [placeholder]="inputPlaceholder"></app-input>
+
+        <div class="meal-planner__card-wrapper">
+            <div class="meal-planner__card-row">
+                <app-card [title]="cardTitle1" [style]="cardStyle1"></app-card>
+                <app-card [title]="cardTitle2" [style]="cardStyle2"></app-card>
+                <app-card [title]="cardTitle3" [style]="cardStyle3"></app-card>
+            </div>
+            <div class="meal-planner__card-row">
+                <app-card [title]="cardTitle4" [style]="cardStyle4"></app-card>
+                <app-card [title]="cardTitle5" [style]="cardStyle5"></app-card>
+                <app-card [title]="cardTitle6" [style]="cardStyle6"></app-card>
+            </div>
+        </div>
+
+        <div class="meal-planner__note">
+            <app-notes [title]="notesTitle" [style]="notesStyle"></app-notes>
+        </div>
     </div>
 </div>
